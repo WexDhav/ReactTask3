@@ -1,0 +1,66 @@
+.App {
+    text-align: center;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: thistle;
+}
+
+.content-div {
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+    background-color: white;
+}
+  
+button {
+    background-color: limegreen;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: auto;
+}
+  
+.color-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.color-list-container {
+    margin-bottom: 10px; /* Add some spacing between the color list and the button */
+}
+  
+.color-list {
+    display: flex;
+    justify-content: center;
+}
+  
+.color-square {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+  
+.color-square:hover {
+    transform: scale(1.1);
+}
+
+button:hover {
+    transform: scale(1.1);
+}
